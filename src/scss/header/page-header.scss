@@ -1,0 +1,13 @@
+.page-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url(../images/header_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header_title {
+  margin-bottom: 10px;
+  text-align: center;
+  @include font-settings(1.125rem, 1.2, 700, $second-font-color);
+}
